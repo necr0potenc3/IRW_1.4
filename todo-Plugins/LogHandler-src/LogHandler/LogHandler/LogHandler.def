@@ -1,0 +1,6 @@
+LIBRARY	LogHandler
+
+EXPORTS
+	InitPlugin
+	UnloadPlugin
+	GetPluginInfo

@@ -1,0 +1,6 @@
+LIBRARY	UseType
+
+EXPORTS
+	InitPlugin
+	UnloadPlugin
+	GetPluginInfo

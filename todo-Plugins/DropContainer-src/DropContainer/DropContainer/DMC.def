@@ -1,0 +1,5 @@
+LIBRARY	DropContainer
+EXPORTS
+	InitPlugin
+	UnloadPlugin
+	GetPluginInfo

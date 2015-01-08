@@ -1,0 +1,102 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Italiano (Italia) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ITA)
+#ifdef _WIN32
+LANGUAGE LANG_ITALIAN, SUBLANG_ITALIAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+DIALOG_LOG DIALOGEX 0, 0, 167, 122
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    CONTROL         "No Filter",ID_NOFILTER,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,9,10,46,14
+    CONTROL         "Network",ID_NETWORK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,9,26,46,14
+    CONTROL         "Builder",ID_BUILDER,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,9,42,46,14
+    CONTROL         "Compressor",ID_COMPRESSOR,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,9,57,60,14
+    CONTROL         "API",ID_API,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,9,72,
+                    60,14
+    CONTROL         "Warning",ID_WARNING,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,9,88,60,14
+    CONTROL         "Error",ID_ERROR,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,9,
+                    104,60,14
+    CONTROL         "Crypt",ID_CRYPT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    95,10,60,14
+    CONTROL         "Interest",ID_INTEREST,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,95,26,60,14
+    CONTROL         "ClientToIRW",ID_CLIENTIRW,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,95,42,60,14
+    CONTROL         "IRWToServer",ID_IRWSERVER,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,95,58,60,14
+    CONTROL         "ServerToIRW",ID_SERVERIRW,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,95,73,60,14
+    CONTROL         "IRWToClient",ID_IRWCLIENT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,95,88,60,14
+    GROUPBOX        "Log Types",IDC_STATIC,0,0,164,119
+END
+
+#endif    // Italiano (Italia) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

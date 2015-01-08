@@ -1,0 +1,2 @@
+; dlltool --base-file C:\DOCUME~1\ADMINI~1\CONFIG~1\Temp/cca02032.base --output-exp Grab.exp --dllname Grab.dll --output-def libGrab.def --no-export-all-symbols --add-stdcall-alias --exclude-symbol=DllMainCRTStartup@12 --def C:\DOCUME~1\ADMINI~1\CONFIG~1\Temp/cca02032.def --output-lib libGrab.a
+EXPORTS

@@ -1,0 +1,2 @@
+; C:\DEV-CPP\BIN\dlltool --base-file C:\WINDOWS\TEMP/cca60415.base --output-exp UseType.exp --dllname UseType.dll --output-def libUseType.def --no-export-all-symbols --add-stdcall-alias --exclude-symbol=DllMainCRTStartup@12 --def C:\WINDOWS\TEMP/cca60415.def --output-lib libUseType.a
+EXPORTS
